@@ -1,0 +1,18 @@
+.continent{
+    display: grid;
+    grid-template-columns: [asie] 100px [europe] 100px [afrique] 100px [amerique]; 
+    grid-auto-flow: dense;
+}
+
+[data-continent="asie"]{
+    grid-column: asie;
+}
+[data-continent="europe"]{
+    grid-column: europe;
+}
+[data-continent="afrique"]{
+    grid-column: afrique;
+}
+[data-continent="amerique"]{
+    grid-column: amerique;
+}
